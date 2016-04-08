@@ -7,6 +7,7 @@ import NewHouse from '../newhouse/newhouse';
 import OldHouse from '../oldhouse/oldhouse';
 import Mine from '../mine/mine';
 import Storage from 'react-native-storage';
+import Enter from '../../Component/navg/page1.js';
 
 export default class Index extends React.Component{
     // 构造
@@ -18,7 +19,7 @@ export default class Index extends React.Component{
     // 渲染
     render(){
         return (
-            <Nav />
+            <Enter/>
         );
     }
 };

@@ -8,6 +8,35 @@ let { width, height } = Dimensions.get('window');
 let PR = PixelRatio.get();
 
 export const styles = {
+
+
+    navbar: {
+        height: 42,
+        backgroundColor: '#fff',
+        flexDirection: 'row',
+        borderTopColor: '#b2b2b2',
+        borderTopWidth: 1/PR
+    },
+    navli: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'flex-end'
+    },
+    navlitxt: {
+        color: '#666',
+        fontSize: 12,
+        marginTop: 3
+    },
+    navlitxtcurrent: {
+        color: '#ff6600'
+    },
+    navliimage: {
+        width: 20,
+        height: 20
+    },
+
+
+    
     style_view_login:{
         marginTop:80,
         marginLeft:100,
@@ -59,6 +88,16 @@ export const styles = {
         left: 0,
         overflow: 'hidden',
         backgroundColor: 'rgba(255,102,0,0)'
+    },
+    bottom: {
+        width: width,
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        flex: 1,
+        flexDirection: 'row',
+        backgroundColor: 'red',
+
     },
     headContent: {
         flex: 1,

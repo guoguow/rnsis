@@ -1,5 +1,5 @@
 {
-  "name": "mask",
+  "name": "rnsis",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,6 +10,8 @@
     "react-native-animatable": "^0.5.1",
     "react-native-collapsible": "^0.5.5",
     "react-native-parallax-scroll-view": "^0.18.0",
-    "react-native-storage": "^0.0.12"
+    "react-native-storage": "^0.0.12",
+    "baobab": "^2.3.3"
+
   }
 }

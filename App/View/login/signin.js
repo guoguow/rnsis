@@ -2,6 +2,8 @@
 //                    <!--View onTouchStart={this.skip.bind(this)}-->
 
 var React = require('react-native');
+require('../../Component/baobab/bb.js');
+var usersCursor = tree.select('users');
 
 var {
      Image, TextInput,Component,
@@ -10,10 +12,11 @@ var {
     View,
     Alert,
     TouchableHighlight,
+    TouchableOpacity
 } = React;
 
-export default class  Login  extends React.Component {
 
+export default class  Login  extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -24,12 +27,21 @@ export default class  Login  extends React.Component {
             pwd:null,
         };
     }
+
+    _back() {
+        const { navigator } = this.props;
+        if(navigator) {
+            //很熟悉吧，入栈出栈~ 把当前的页面pop掉，这里就返回到了上一个页面:FirstPageComponent了
+            navigator.pop();
+        }
+    }
     handleFetchsignin() {
         console.log(this.state.user);
         console.log(this.state.pwd);
         var username = this.state.user;
         var password = this.state.pwd;
         var baseurl="http://10.1.82.53:3001/signin?password=";
+
         var queryURL=baseurl+encodeURIComponent(password)+"&username="+encodeURIComponent(username);
         console.log(queryURL);
        {
@@ -47,11 +59,18 @@ export default class  Login  extends React.Component {
                             {text: 'OK', onPress: () => console.log('OK Pressed!')},
                         ]
                     );
-
                     this.setState({
                         username: responseData.username,
                         ssn: responseData.ssn
                     });
+
+                    usersCursor.set('username', responseData.username);
+                    usersCursor.set('ssn', responseData.ssn);
+
+                    console.log("aa"+usersCursor.get("username"));
+                    console.log("aa"+usersCursor.get("ssn"));
+
+
                 })
                 .catch((error) => {
                     console.warn(error);
@@ -64,6 +83,8 @@ export default class  Login  extends React.Component {
                     );
                 });
         }
+        
+        
     }
 
     handleFetchsignup() {
@@ -97,6 +118,13 @@ export default class  Login  extends React.Component {
         var data = this.state.hey
         return (
             <View style={styles.container}>
+
+                <View>
+                    <TouchableOpacity onPress={this._back.bind(this)}>
+                        <Text>BACK</Text>
+                    </TouchableOpacity>
+                </View>
+
                 <Text style={styles.title}>Hi,Signin/up First!</Text>
                 <TextInput
                     style={styles.style_user_input}
@@ -129,8 +157,6 @@ export default class  Login  extends React.Component {
                         </View>
                     </TouchableHighlight>
 
-
-
                 <View style={{flex:1,flexDirection:'row',alignItems: 'flex-end',bottom:10}}>
                       <View>
                         <Text  style={styles.style_view_unlogin}>游客访问</Text>
@@ -145,21 +171,18 @@ export default class  Login  extends React.Component {
     }
     renderPass(){
         return (
-                <View>
-                    <Text  style={styles.style_view_unlogin}>ahahahahahahahahahahahah</Text>
-                    <Text  style={styles.style_view_unlogin}>ahahahahahahahahahahahah</Text>
-                    <Text  style={styles.style_view_unlogin}>ahahahahahahahahahahahah</Text>
-                    <Text  style={styles.style_view_unlogin}>ahahahahahahahahahahahah</Text>
-                    <Text  style={styles.style_view_unlogin}>ahahahahahahahahahahahah</Text>
-                    <Text  style={styles.style_view_unlogin}>ahahahahahahahahahahahah</Text>
+            <View style={{flex: 1}}>
+                <View style={{flex: 1,backgroundColor: 'red'}}><Text>{'welcome'}</Text>
+                    <Text>{this.state.username}</Text>
                 </View>
+
+            </View>
         );
     }
-    
 
     /*渲染*/
     render() {
-        if(this.state.username==null){
+        if(usersCursor.get("username")==null){
             return (
                 <View style={styles.wrap}>
                     {this.renderLogin()}

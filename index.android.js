@@ -2,13 +2,15 @@
 
 import React, { AppRegistry } from 'react-native';
 import Startpage from './App/View/startpage/startpage';
+import Enter from './App/Component/navg/page1.js';
+import Index from './App/View/index/index';
 
 class App extends React.Component {
     render(){
         return (
-            <Startpage />
+            <Index />
         );
     }
 }
 
-AppRegistry.registerComponent('mask', () => App);
+AppRegistry.registerComponent('rnsis', () => App);

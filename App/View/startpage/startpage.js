@@ -4,7 +4,6 @@ import React, { View, Text, Image, Platform, StatusBarIOS } from 'react-native';
 import Animatable from 'react-native-animatable';
 import { styles } from './startpageCss';
 import Index from '../index/index';
-//import Login from '../login/signin';
 
 
 export default class Startpage extends React.Component {
