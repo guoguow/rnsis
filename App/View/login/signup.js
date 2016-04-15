@@ -15,8 +15,8 @@ var calMethod = '';
 import Index from '../index/index';
 import Nav from '../../Component/nav/nav';
 import Home from '../home/home';
-import NewHouse from '../newhouse/newhouse';
-import OldHouse from '../oldhouse/oldhouse';
+import NewHouse from '../func/func';
+import OldHouse from '../news/news';
 import Mine from '../mine/mine';
 
 

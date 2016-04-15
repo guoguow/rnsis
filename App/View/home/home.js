@@ -3,8 +3,8 @@
 import React, { ScrollView, View, Image, Text,TouchableHighlight, Animated,Global,TouchableOpacity } from 'react-native';
 import { styles } from './homeCss';
 import Login from '../login/signin.js';
-import NewHouse from '../../View/newhouse/newhouse';
-import OldHouse from '../../View/oldhouse/oldhouse';
+import Func from '../func/func';
+import News from '../news/news';
 import Mine from '../../View/mine/mine';
 
 require('../../Component/baobab/bb.js');
@@ -40,7 +40,8 @@ export default class Home extends React.Component {
                     suri: require('../img/tab4_1.png')
                 }
             ],
-            currentComponent: 0,
+            currentComponent: 0
+
         };
         this.setTransY = {};
         this.bgopacity = {};
@@ -77,13 +78,10 @@ export default class Home extends React.Component {
             case 1:
             {
                 const { navigator } = this.props;
-                //为什么这里可以取得 props.navigator?请看上文:
-                //<Component {...route.params} navigator={navigator} />
-                //这里传递了navigator作为props
                 if(navigator) {
                     navigator.push({
-                        name: 'NewHouse',
-                        component: NewHouse
+                        name: 'Func',
+                        component: Func
                     })
                 }
             }break;
@@ -92,8 +90,8 @@ export default class Home extends React.Component {
                 const { navigator } = this.props;
                 if(navigator) {
                     navigator.push({
-                        name: 'OldHouse',
-                        component: OldHouse
+                        name: 'News',
+                        component: News
                     })
                 }
             }break;
@@ -204,7 +202,6 @@ export default class Home extends React.Component {
                             </View>
                         </View>
                     </View>
-
                     <View ref={(e)=>this.setTransY = e} style={styles.swithbox}>
                         <Image style={[styles.swithboximg,styles.resizeMode]} source={{uri:'http://f.hiphotos.baidu.com/lvpics/w=1000/sign=4d69c022ea24b899de3c7d385e361c95/f31fbe096b63f6240e31d3218444ebf81a4ca3a0.jpg'}} />
                         <View style={styles.swithboxlibox}>
@@ -213,7 +210,6 @@ export default class Home extends React.Component {
                             <View style={styles.swithboxli}></View>
                         </View>
                     </View>
-
                     <View style={[styles.quotation,styles.borderTopBottom]}>
                         <View style={styles.quotationti}>
                             <Text style={styles.quotationtxt}>{'便民服务'}</Text>
@@ -233,8 +229,6 @@ export default class Home extends React.Component {
                             </View>
                         </View>
                     </View>
-
-
                 </ScrollView>
 
                 <View style={styles.head} ref={(e)=>this.bgopacity = e}>
@@ -247,6 +241,16 @@ export default class Home extends React.Component {
                             </View>
                         </View>
                     </View>
+                </View>
+                <View style={styles.navbar}>
+                    {
+                        this.state.data.map((value,key)=>
+                            <View style={styles.navli} key={key} onTouchEnd={this.select.bind(this,key)}>
+                                <Image style={styles.navliimage} source={key==(this.state.currentComponent)?value.suri:value.uri}/>
+                                <Text style={[styles.navlitxt,(key==this.state.currentComponent)&&styles.navlitxtcurrent]}>{value.txt}</Text>
+                            </View>
+                        )
+                    }
                 </View>
             </View>
         );
@@ -272,24 +276,48 @@ export default class Home extends React.Component {
                         </View>
                         <View style={styles.quotationcontent}>
                             <View style={[styles.quotationdata,styles.quotationdataBorder]}>
+                                <TouchableOpacity
+                                    onPress={this._gologin.bind(this)}
+                                >
                                 <Text style={styles.quotationth}>{'个人信息'}</Text>
+                            </TouchableOpacity>
                             </View>
                             <View style={[styles.quotationdata,styles.quotationdataBorder]}>
+                                <TouchableOpacity
+                                    onPress={this._gologin.bind(this)}
+                                >
                                 <Text style={styles.quotationth}>{'历史账单'}</Text>
+                            </TouchableOpacity>
                             </View>
                             <View style={[styles.quotationdata,styles.quotationdataBorder]}>
-                                <Text style={styles.quotationth}>{'缴费记录'}</Text>
+                                <TouchableOpacity
+                                    onPress={this._gologin.bind(this)}
+                                >
+                                <Text style={styles.quotationth} onPress={this._gologin.bind(this)}>{'缴费记录'}</Text>
+                                    </TouchableOpacity>
                             </View>
                         </View>
                         <View style={styles.quotationcontents}>
                             <View style={[styles.quotationdata,styles.quotationdataBorder]}>
+                                <TouchableOpacity
+                                    onPress={this._gologin.bind(this)}
+                                >
                                 <Text style={styles.quotationth}>{'账号绑定'}</Text>
+                            </TouchableOpacity>
                             </View>
                             <View style={[styles.quotationdata,styles.quotationdataBorder]}>
+                                <TouchableOpacity
+                                    onPress={this._gologin.bind(this)}
+                                >
                                 <Text style={styles.quotationth}>{'我要缴费'}</Text>
+                                    </TouchableOpacity>
                             </View>
                             <View style={[styles.quotationdata,styles.quotationdataBorder]}>
+                                <TouchableOpacity
+                                    onPress={this._gologin.bind(this)}
+                                >
                                 <Text style={styles.quotationth}>{'拨付详单'}</Text>
+                                    </TouchableOpacity>
                             </View>
                         </View>
 
@@ -365,7 +393,7 @@ export default class Home extends React.Component {
                     {
                         this.state.data.map((value,key)=>
                             <View style={styles.navli} key={key} onTouchEnd={this.select.bind(this,key)}>
-                                <Image style={styles.navliimage} source={key==this.state.currentComponent?value.suri:value.uri}/>
+                                <Image style={styles.navliimage} source={key==(this.state.currentComponent)?value.suri:value.uri}/>
                                 <Text style={[styles.navlitxt,(key==this.state.currentComponent)&&styles.navlitxtcurrent]}>{value.txt}</Text>
                             </View>
                         )
@@ -375,11 +403,8 @@ export default class Home extends React.Component {
             </View>
         );
     }
-
     /*渲染*/
     render() {
-
-
         if(usersCursor.get("username")==null){
             return (
                 <View style={styles.wrap}>

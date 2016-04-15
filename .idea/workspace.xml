@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dc22149-5805-43cc-90d0-3493a5290867" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/guoguow.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+    <list default="true" id="8dc22149-5805-43cc-90d0-3493a5290867" name="Default" comment="尚未加密V0">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/View/news/news.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/View/news/newsCss.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/View/oldhouse/oldhouse.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="" />
@@ -1024,52 +1025,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/gradlew" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/gradlew.bat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/settings.gradle" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rnsisV1.iml" afterPath="$PROJECT_DIR$/.idea/rnsisV1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Component/nav/nav.js" afterPath="$PROJECT_DIR$/App/Component/nav/nav.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/home/home.js" afterPath="$PROJECT_DIR$/App/View/home/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/home/homeCss.js" afterPath="$PROJECT_DIR$/App/View/home/homeCss.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/index/index.js" afterPath="$PROJECT_DIR$/App/View/index/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/login/signin.js" afterPath="$PROJECT_DIR$/App/View/login/signin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/newhouse/newhouse.js" afterPath="$PROJECT_DIR$/App/View/newhouse/newhouse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/oldhouse/oldhouse.js" afterPath="$PROJECT_DIR$/App/View/oldhouse/oldhouse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/startpage/startpage.js" afterPath="$PROJECT_DIR$/App/View/startpage/startpage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/storage.js" afterPath="$PROJECT_DIR$/App/storage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/login/signup.js" afterPath="$PROJECT_DIR$/App/View/login/signup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/mine/mine.js" afterPath="$PROJECT_DIR$/App/View/mine/mine.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.android.js" afterPath="$PROJECT_DIR$/index.android.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/arrow13@2x.png" afterPath="$PROJECT_DIR$/App/View/img/arrow13@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/arrow13@3x.png" afterPath="$PROJECT_DIR$/App/View/img/arrow13@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/index_icon4@2x.png" afterPath="$PROJECT_DIR$/App/View/img/index_icon4@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/index_icon4@3x.png" afterPath="$PROJECT_DIR$/App/View/img/index_icon4@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/index_icon5@2x.png" afterPath="$PROJECT_DIR$/App/View/img/index_icon5@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/index_icon5@3x.png" afterPath="$PROJECT_DIR$/App/View/img/index_icon5@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/index_icon6@2x.png" afterPath="$PROJECT_DIR$/App/View/img/index_icon6@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/index_icon6@3x.png" afterPath="$PROJECT_DIR$/App/View/img/index_icon6@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/search2@2x.png" afterPath="$PROJECT_DIR$/App/View/img/search2@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/search2@3x.png" afterPath="$PROJECT_DIR$/App/View/img/search2@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab0_1@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab0_1@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab0_1@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab0_1@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab0_2@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab0_2@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab0_2@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab0_2@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab1_1@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab1_1@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab1_1@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab1_1@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab1_2@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab1_2@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab1_2@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab1_2@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab2_1@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab2_1@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab2_1@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab2_1@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab2_2@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab2_2@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab2_2@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab2_2@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab3_1@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab3_1@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab3_1@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab3_1@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab3_2@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab3_2@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab3_2@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab3_2@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab4_1@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab4_1@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab4_1@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab4_1@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab4_2@2x.png" afterPath="$PROJECT_DIR$/App/View/img/tab4_2@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/tab4_2@3x.png" afterPath="$PROJECT_DIR$/App/View/img/tab4_2@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/top@2x.png" afterPath="$PROJECT_DIR$/App/View/img/top@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/home/img/top@3x.png" afterPath="$PROJECT_DIR$/App/View/img/top@3x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/App/View/newhouse/newhouse.js" afterPath="$PROJECT_DIR$/App/View/func/func.js" />
     </list>
     <ignored path="rnsisV1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1089,86 +1054,61 @@
     <favorites_list name="rnsisV1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file leaf-file-name="rsalogin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/rsalogin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+                <element signature="e#4183#4566#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="signin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/View/login/signin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state relative-caret-position="361">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#426#606#0" expanded="false" />
-                <element signature="e#620#801#0" expanded="false" />
-                <element signature="e#826#2678#0" expanded="false" />
-                <element signature="e#2704#2900#0" expanded="false" />
-                <element signature="e#2929#3105#0" expanded="false" />
-                <element signature="e#3132#3330#0" expanded="false" />
-                <element signature="e#3734#4140#0" expanded="false" />
-                <element signature="e#4157#4562#0" expanded="false" />
-                <element signature="e#4584#5027#0" expanded="false" />
+                <element signature="e#2302#2428#0" expanded="false" />
+                <element signature="e#3271#3467#0" expanded="false" />
+                <element signature="e#6393#6768#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newhouse.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/View/newhouse/newhouse.js">
+      <file leaf-file-name="base64.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/base64.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-              <folding>
-                <element signature="e#15#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newCss.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/View/newhouse/newCss.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-                <element signature="e#58#105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/View/home/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1276">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#136#0" expanded="true" />
-                <element signature="e#643#1369#0" expanded="false" />
-                <element signature="e#3347#4212#0" expanded="false" />
-                <element signature="e#4230#10733#0" expanded="false" />
-                <element signature="e#10870#16608#0" expanded="false" />
-                <element signature="e#13305#14692#0" expanded="false" />
-                <element signature="e#14714#15348#0" expanded="false" />
-                <element signature="e#15370#16557#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navCss.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Component/nav/navCss.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="29" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="19">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav_1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Component/nav/nav_1.js">
+      <file leaf-file-name="index.android.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.android.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="247">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#15#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rsa-client.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/rsa-client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="765" column="9" selection-start-line="765" selection-start-column="9" selection-end-line="765" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -1196,24 +1136,37 @@
         <option value="$PROJECT_DIR$/App/storage.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/App/Component/baobab/baobabtest.js" />
-        <option value="$PROJECT_DIR$/App/Component/baobab/aa.js" />
-        <option value="$PROJECT_DIR$/App/Component/baobab/cc.js" />
-        <option value="$PROJECT_DIR$/App/View/oldhouse/oldhouse.js" />
         <option value="$PROJECT_DIR$/App/View/startpage/startpage.js" />
         <option value="$PROJECT_DIR$/App/Component/baobab/dd.js" />
         <option value="$PROJECT_DIR$/App/Component/navg/111.js" />
         <option value="$PROJECT_DIR$/App/Component/navg/222.js" />
-        <option value="$PROJECT_DIR$/App/View/login/signin.js" />
         <option value="$PROJECT_DIR$/App/Component/baobab/bb.js" />
-        <option value="$PROJECT_DIR$/index.android.js" />
         <option value="$PROJECT_DIR$/App/Component/nav/nav.js" />
         <option value="$PROJECT_DIR$/App/View/index/index.js" />
-        <option value="$PROJECT_DIR$/App/Component/navg/page1.js" />
-        <option value="$PROJECT_DIR$/App/View/home/homeCss.js" />
-        <option value="$PROJECT_DIR$/App/View/newhouse/newCss.js" />
         <option value="$PROJECT_DIR$/App/Component/nav/nav_1.js" />
+        <option value="$PROJECT_DIR$/App/View/newhouse/newCss.js" />
         <option value="$PROJECT_DIR$/App/View/newhouse/newhouse.js" />
+        <option value="$PROJECT_DIR$/App/View/oldhouse/oldhouse.js" />
+        <option value="$PROJECT_DIR$/App/View/func/newhouse.js" />
+        <option value="$PROJECT_DIR$/App/View/news/oldhouse.js" />
+        <option value="$PROJECT_DIR$/App/View/home/homeCss.js" />
+        <option value="$PROJECT_DIR$/App/View/mine/mineCss.js" />
+        <option value="$PROJECT_DIR$/App/View/func/func.js" />
         <option value="$PROJECT_DIR$/App/View/home/home.js" />
+        <option value="$PROJECT_DIR$/App/View/news/news.js" />
+        <option value="$PROJECT_DIR$/App/Service/mineSIS.js" />
+        <option value="$PROJECT_DIR$/App/Service/sftConfig.js" />
+        <option value="$PROJECT_DIR$/App/View/mine/mine.js" />
+        <option value="$PROJECT_DIR$/App/Service/persInfo.js" />
+        <option value="$PROJECT_DIR$/App/View/login/signin.js" />
+        <option value="$PROJECT_DIR$/App/Service/attachSSN.js" />
+        <option value="$PROJECT_DIR$/App/Component/navg/page1.js" />
+        <option value="$PROJECT_DIR$/App/Component/baobab/cc.js" />
+        <option value="$PROJECT_DIR$/App/Component/baobab/aa.js" />
+        <option value="$PROJECT_DIR$/index.android.js" />
+        <option value="$PROJECT_DIR$/App/rsa-client.js" />
+        <option value="$PROJECT_DIR$/App/base64.js" />
+        <option value="$PROJECT_DIR$/App/rsalogin.js" />
       </list>
     </option>
   </component>
@@ -1253,7 +1206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1274,6 +1226,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1289,16 +1242,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="E:/alisisV1" />
+    <property name="last_opened_file_path" value="E:/nodeServer" />
     <property name="nodejs_interpreter_path" value="D:\nodejs\node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\rnsisV1\App\View\newhouse" />
-      <recent name="E:\rnsisV1\App\Component\nav" />
-      <recent name="E:\rnsisV1\App\Component\baobab" />
+      <recent name="E:\rnsisV1\App\View" />
+      <recent name="E:\rnsisV1\App\Service" />
+      <recent name="E:\rnsisV1\App" />
+      <recent name="E:\rnsisV1\App\View\oldhouse" />
+      <recent name="E:\rnsisV1\App\View\mine" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\rnsisV1\App" />
       <recent name="E:\rnsisV1\App\View" />
       <recent name="E:\rnsisV1\App\View\home\img" />
       <recent name="E:\rnsisV1\App\Component\navg" />
@@ -1308,13 +1264,13 @@
     <configuration default="false" name="bb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="bb.js" working-dir="$PROJECT_DIR$/App/Component/baobab">
       <method />
     </configuration>
-    <configuration default="false" name="baobabtest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/App/Component/baobab/aa.js" working-dir="$PROJECT_DIR$/App/Component/baobab">
+    <configuration default="false" name="baobabtest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/App/Component/baobab/aatest.js" working-dir="$PROJECT_DIR$/App/Component/baobab">
       <method />
     </configuration>
     <configuration default="false" name="cc.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="cc.js" working-dir="$PROJECT_DIR$/App/Component/baobab">
       <method />
     </configuration>
-    <configuration default="false" name="dd.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/App/Component/navg/page1.js" working-dir="$PROJECT_DIR$/App/Component/baobab">
+    <configuration default="false" name="dd.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/App/Component/navg/navg.js" working-dir="$PROJECT_DIR$/App/Component/baobab">
       <method />
     </configuration>
     <configuration default="false" name="signin.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="signin.js" working-dir="$PROJECT_DIR$/App/View/login">
@@ -1407,12 +1363,27 @@
       <workItem from="1459815722246" duration="10035000" />
       <workItem from="1459904737624" duration="22022000" />
       <workItem from="1459988706061" duration="18344000" />
-      <workItem from="1460074969457" duration="23660000" />
+      <workItem from="1460074969457" duration="23942000" />
+      <workItem from="1460334119864" duration="20443000" />
+      <workItem from="1460420614797" duration="22153000" />
+      <workItem from="1460525721389" duration="11205000" />
+      <workItem from="1460593625732" duration="2762000" />
+      <workItem from="1460615350711" duration="10677000" />
+      <workItem from="1460682875476" duration="1686000" />
+      <workItem from="1460686368006" duration="12125000" />
     </task>
+    <task id="LOCAL-00001" summary="用户登录状态的保存已经完成（cookie），navgitor初步雏形">
+      <created>1460107562609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1460107562610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76310000" />
+    <option name="totallyTimeSpent" value="157643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1424,17 +1395,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="916" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23201692" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15286624" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3112245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.277707" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1474,171 +1446,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用户登录状态的保存已经完成（cookie），navgitor初步雏形" />
+    <MESSAGE value="尚未加密V0" />
+    <option name="LAST_COMMIT_MESSAGE" value="尚未加密V0" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/View/login/signin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#426#606#0" expanded="false" />
-            <element signature="e#620#801#0" expanded="false" />
-            <element signature="e#826#2678#0" expanded="false" />
-            <element signature="e#2704#2900#0" expanded="false" />
-            <element signature="e#2929#3105#0" expanded="false" />
-            <element signature="e#3132#3330#0" expanded="false" />
-            <element signature="e#3734#4140#0" expanded="false" />
-            <element signature="e#4157#4562#0" expanded="false" />
-            <element signature="e#4584#5027#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/navg/page1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/nav/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-          <folding>
-            <element signature="e#15#81#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#136#0" expanded="true" />
-            <element signature="e#643#1369#0" expanded="false" />
-            <element signature="e#3347#4212#0" expanded="false" />
-            <element signature="e#4230#10733#0" expanded="false" />
-            <element signature="e#10870#16608#0" expanded="false" />
-            <element signature="e#13305#14692#0" expanded="false" />
-            <element signature="e#14714#15348#0" expanded="false" />
-            <element signature="e#15370#16557#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/navg/111.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#43#121#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/navg/222.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/baobab/bb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/baobab/aa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/login/signin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="135" column="42" selection-start-line="135" selection-start-column="42" selection-end-line="135" selection-end-column="42" />
-          <folding>
-            <element signature="e#426#606#0" expanded="false" />
-            <element signature="e#620#801#0" expanded="false" />
-            <element signature="e#826#2678#0" expanded="false" />
-            <element signature="e#2704#2900#0" expanded="false" />
-            <element signature="e#2929#3105#0" expanded="false" />
-            <element signature="e#3132#3330#0" expanded="false" />
-            <element signature="e#3734#4140#0" expanded="false" />
-            <element signature="e#4157#4562#0" expanded="false" />
-            <element signature="e#4584#5027#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/startpage/startpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#95#0" expanded="false" />
-            <element signature="e#304#807#0" expanded="false" />
-            <element signature="e#1143#2067#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#136#0" expanded="true" />
-            <element signature="e#643#1369#0" expanded="false" />
-            <element signature="e#3347#4212#0" expanded="false" />
-            <element signature="e#4230#10733#0" expanded="false" />
-            <element signature="e#10870#16608#0" expanded="false" />
-            <element signature="e#13305#14692#0" expanded="false" />
-            <element signature="e#14714#15348#0" expanded="false" />
-            <element signature="e#15370#16557#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/oldhouse/oldhouse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="65" selection-start-line="22" selection-start-column="20" selection-end-line="23" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Component/nav/nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
           <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-          <folding>
-            <element signature="e#15#81#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1653,7 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1661,11 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2033">
           <caret line="110" column="42" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
-          <folding>
-            <element signature="e#15#95#0" expanded="false" />
-            <element signature="e#304#807#0" expanded="false" />
-            <element signature="e#1143#2067#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1674,14 +1491,12 @@
         <state relative-caret-position="57">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#15#136#0" expanded="true" />
-            <element signature="e#643#1369#0" expanded="false" />
-            <element signature="e#3347#4212#0" expanded="false" />
-            <element signature="e#4230#10733#0" expanded="false" />
-            <element signature="e#10870#16608#0" expanded="false" />
-            <element signature="e#13305#14692#0" expanded="false" />
-            <element signature="e#14714#15348#0" expanded="false" />
-            <element signature="e#15370#16557#0" expanded="false" />
+            <element signature="e#1899#3112#0" expanded="false" />
+            <element signature="e#3129#3994#0" expanded="false" />
+            <element signature="e#4012#11124#0" expanded="false" />
+            <element signature="e#14973#16360#0" expanded="false" />
+            <element signature="e#16382#17016#0" expanded="false" />
+            <element signature="e#17038#18225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1690,7 +1505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1698,9 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#81#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1709,15 +1520,9 @@
         <state relative-caret-position="437">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
-            <element signature="e#426#606#0" expanded="false" />
-            <element signature="e#620#801#0" expanded="false" />
-            <element signature="e#826#2678#0" expanded="false" />
-            <element signature="e#2704#2900#0" expanded="false" />
-            <element signature="e#2929#3105#0" expanded="false" />
-            <element signature="e#3132#3330#0" expanded="false" />
-            <element signature="e#3734#4140#0" expanded="false" />
-            <element signature="e#4157#4562#0" expanded="false" />
-            <element signature="e#4584#5027#0" expanded="false" />
+            <element signature="e#2302#2428#0" expanded="false" />
+            <element signature="e#3271#3467#0" expanded="false" />
+            <element signature="e#6393#6768#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1726,7 +1531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1742,9 +1546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="e#15#65#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1762,9 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1772,7 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1783,14 +1580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/baobab/eslint.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1798,138 +1587,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/storage.js">
+    <entry file="file://$PROJECT_DIR$/.flowconfig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
+        <state relative-caret-position="313">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Component/nav/navCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/news/newsCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/func/funcCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/mine/mineCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/home/homeCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="266" column="6" selection-start-line="256" selection-start-column="4" selection-end-line="266" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/func/func.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/news/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-601">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Service/sftConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Service/mineCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/mine/mine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding>
+            <element signature="e#15#94#0" expanded="false" />
+            <element signature="e#484#1341#0" expanded="false" />
+            <element signature="e#1378#1617#0" expanded="false" />
+            <element signature="e#1892#2153#0" expanded="false" />
+            <element signature="e#2166#2351#0" expanded="false" />
+            <element signature="e#2369#3582#0" expanded="false" />
+            <element signature="e#6102#6567#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Components/TextInput/TextInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="569" column="40" selection-start-line="569" selection-start-column="40" selection-end-line="569" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/View/login/signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="-3699">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/oldhouse/oldhouse.js">
+    <entry file="file://$PROJECT_DIR$/App/Service/attachSSN.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        <state relative-caret-position="407">
+          <caret line="99" column="10" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
+          <folding>
+            <element signature="e#59#191#0" expanded="false" />
+            <element signature="e#519#631#0" expanded="false" />
+            <element signature="e#658#756#0" expanded="false" />
+            <element signature="e#782#879#0" expanded="false" />
+            <element signature="e#908#1008#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Service/persInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Component/baobab/bb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Component/baobab/cc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/baobab/aa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/navg/111.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#43#121#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.flowconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/baobab/bb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/navg/222.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#43#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/startpage/startpage.js">
+    <entry file="file://$PROJECT_DIR$/App/Component/baobab/aatest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="103" column="22" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="22" />
-          <folding>
-            <element signature="e#15#95#0" expanded="false" />
-            <element signature="e#304#807#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.android.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="e#15#65#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/nav/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#81#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/navg/page1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/nav/navCss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/home/homeCss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2185">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1942,58 +1742,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/login/signin.js">
+    <entry file="file://$PROJECT_DIR$/App/Component/nav/nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding>
-            <element signature="e#426#606#0" expanded="false" />
-            <element signature="e#620#801#0" expanded="false" />
-            <element signature="e#826#2678#0" expanded="false" />
-            <element signature="e#2704#2900#0" expanded="false" />
-            <element signature="e#2929#3105#0" expanded="false" />
-            <element signature="e#3132#3330#0" expanded="false" />
-            <element signature="e#3734#4140#0" expanded="false" />
-            <element signature="e#4157#4562#0" expanded="false" />
-            <element signature="e#4584#5027#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-556">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/newhouse/newCss.js">
+    <entry file="file://$PROJECT_DIR$/App/Component/navg/222.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="437">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Component/navg/111.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Component/navg/navg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
-            <element signature="e#0#42#0" expanded="false" />
-            <element signature="e#58#105#0" expanded="true" />
+            <element signature="e#78#139#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/View/home/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1276">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
-            <element signature="e#15#136#0" expanded="true" />
-            <element signature="e#643#1369#0" expanded="false" />
-            <element signature="e#3347#4212#0" expanded="false" />
-            <element signature="e#4230#10733#0" expanded="false" />
-            <element signature="e#10870#16608#0" expanded="false" />
-            <element signature="e#13305#14692#0" expanded="false" />
-            <element signature="e#14714#15348#0" expanded="false" />
-            <element signature="e#15370#16557#0" expanded="false" />
+            <element signature="e#1899#3112#0" expanded="false" />
+            <element signature="e#3129#3994#0" expanded="false" />
+            <element signature="e#4012#11124#0" expanded="false" />
+            <element signature="e#14973#16360#0" expanded="false" />
+            <element signature="e#16382#17016#0" expanded="false" />
+            <element signature="e#17038#18225#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/newhouse/newhouse.js">
+    <entry file="file://$PROJECT_DIR$/App/View/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#15#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/startpage/startpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="103" column="22" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Service/mineSIS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/base64.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/login/signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#2302#2428#0" expanded="false" />
+            <element signature="e#3271#3467#0" expanded="false" />
+            <element signature="e#6393#6768#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/rsa-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="765" column="9" selection-start-line="765" selection-start-column="9" selection-end-line="765" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/rsalogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+            <element signature="e#4183#4566#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.android.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="e#15#88#0" expanded="true" />
+            <element signature="e#15#65#0" expanded="true" />
           </folding>
         </state>
       </provider>

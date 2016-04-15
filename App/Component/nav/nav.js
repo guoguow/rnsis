@@ -4,8 +4,8 @@ import React, { View, Image, Text,Navigator } from 'react-native';
 import { styles } from './navCss';
 
 import Home from '../../View/home/home';
-import NewHouse from '../../View/newhouse/newhouse';
-import OldHouse from '../../View/oldhouse/oldhouse';
+import NewHouse from '../../View/func/func';
+import OldHouse from '../../View/news/news';
 import Mine from '../../View/mine/mine';
 
 export default class Nav extends React.Component {

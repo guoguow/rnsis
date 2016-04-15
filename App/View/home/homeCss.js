@@ -34,8 +34,6 @@ export const styles = {
         width: 20,
         height: 20
     },
-
-
     
     style_view_login:{
         marginTop:80,

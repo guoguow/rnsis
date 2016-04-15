@@ -4,7 +4,6 @@
 var React = require('react-native');
 require('../../Component/baobab/bb.js');
 var usersCursor = tree.select('users');
-
 var {
      Image, TextInput,Component,
     StyleSheet,
@@ -44,12 +43,25 @@ export default class  Login  extends React.Component {
 
         var queryURL=baseurl+encodeURIComponent(password)+"&username="+encodeURIComponent(username);
         console.log(queryURL);
-       {
+        function status(response){
+            console.log(response);
+            if(response.hasOwnProperty("error"))
+            {
+                console.log(response.error);
+                var cerror=response.error;
+                return Promise.reject(cerror)
+            }else{
+                console.log(response);
+                return  Promise.resolve(response)
+            }
+        }
+        {
             fetch(queryURL)
             //  fetch('http://srv.ehuishou.com/userlogin?userId=13705030809&passwd=123456')
-                .then((response) => response.json())
+                .then((response) =>response.json())
+                .then(status)
                 .then((responseData) => {
-                    console.log(responseData);
+                        console.log(responseData);
                     Alert.alert(
                         '欢迎',
                         // responseData.content.userInfo.customersName,
@@ -66,22 +78,23 @@ export default class  Login  extends React.Component {
 
                     usersCursor.set('username', responseData.username);
                     usersCursor.set('ssn', responseData.ssn);
-
                     console.log("aa"+usersCursor.get("username"));
                     console.log("aa"+usersCursor.get("ssn"));
-
-
                 })
-                .catch((error) => {
-                    console.warn(error);
+                .catch((cerror) => {
+                  console.warn(cerror);
                     Alert.alert(
-                        'catch Title',
-                        error,
+                       // console.log("bbbbbbbbbb"+cerror),
+                    '出错啦',
+                        cerror,
                         [
-                            {text: 'OK', onPress: () => console.log('OK Pressed!')},
+                            {text: 'OK', onPress: () => console.log('OK Pressed!')}
                         ]
                     );
-                });
+                })
+             .catch((error) => {
+               console.log("ppp"+error);
+             });
         }
         
         
@@ -126,16 +139,18 @@ export default class  Login  extends React.Component {
                 </View>
 
                 <Text style={styles.title}>Hi,Signin/up First!</Text>
-                <TextInput
-                    style={styles.style_user_input}
-                    placeholder='用户名/社保号'
-                    numberOfLines={1}
-                    autoFocus={true}
-                    underlineColorAndroid={'transparent'}
-                    textAlign='center'
-                    type="text" value={this.state.user}
-                    onChange={this.getuser.bind(this)}
-                />
+
+                    <TextInput
+                        style={styles.style_user_input}
+                        placeholder='用户名/社保号'
+                        numberOfLines={1}
+                        autoFocus={true}
+                        underlineColorAndroid={'transparent'}
+                        textAlign='center'
+                        type="text" value={this.state.user}
+                        onChange={this.getuser.bind(this)}
+                    />
+
                 <TextInput
                     style={styles.style_pwd_input}
                     placeholder='密码'
@@ -158,26 +173,24 @@ export default class  Login  extends React.Component {
                     </TouchableHighlight>
 
                 <View style={{flex:1,flexDirection:'row',alignItems: 'flex-end',bottom:10}}>
-                      <View>
-                        <Text  style={styles.style_view_unlogin}>游客访问</Text>
-                    </View>
-                    <View>
+                    <TouchableOpacity onPress={this._back.bind(this)}>
+                        <Text style={styles.style_view_unlogin}>游客访问</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={this._back.bind(this)}>
                         <Text  style={styles.style_view_register}>用户注册</Text>
-                    </View>
+                    </TouchableOpacity>
                 </View>
             </View>
 
         );
     }
     renderPass(){
-        return (
-            <View style={{flex: 1}}>
-                <View style={{flex: 1,backgroundColor: 'red'}}><Text>{'welcome'}</Text>
-                    <Text>{this.state.username}</Text>
-                </View>
+        const { navigator } = this.props;
+        if(navigator) {
+            //很熟悉吧，入栈出栈~ 把当前的页面pop掉，这里就返回到了上一个页面:FirstPageComponent了
+            navigator.pop();
+        }
 
-            </View>
-        );
     }
 
     /*渲染*/
@@ -218,15 +231,12 @@ const styles =StyleSheet.create({
         fontSize:12,
         color:'#63B8FF',
         marginLeft:10,
+
     },
     style_view_register:{
         fontSize:12,
         color:'#63B8FF',
-        marginRight:10,
-        alignItems:'flex-end',
-        flex:1,
-        flexDirection:'row',
-        textAlign:'right',
+        marginLeft:260,
     },
     style_user_input:{
         backgroundColor:'#fff',
@@ -245,7 +255,6 @@ const styles =StyleSheet.create({
         height:35,
         borderRadius:5,
         justifyContent: 'center',
-        alignItems: 'center',
     },
     functionalButton: {
         backgroundColor: "##5599FF",
@@ -260,6 +269,8 @@ const styles =StyleSheet.create({
         backgroundColor: '#F5FCFF',
     },
     title: {
+        left:30,
+        marginTop: 30,
         fontFamily: 'Chalkduster',
         fontSize: 39,
         color: 'gray',
