@@ -1,7 +1,7 @@
 'use strict';
 
 import React, { View,Alert, Image, Text,TouchableOpacity } from 'react-native';
-import Login from '../login/signin';
+import RsaLogin from '../login/rsalogin';
 import Home from '../home/home.js';
 import News from '../news/news';
 import Func from '../func/func';
@@ -51,7 +51,7 @@ export default class Mine extends React.Component{
         if(navigator) {
             navigator.push({
                 name: 'Login',
-                component: Login
+                component: RsaLogin
             })
         }
     }

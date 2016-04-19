@@ -2,7 +2,7 @@
 
 import React, { ScrollView, View, Image, Text,TouchableHighlight, Animated,Global,TouchableOpacity } from 'react-native';
 import { styles } from './homeCss';
-import Login from '../login/signin.js';
+import RsaLogin from '../login/rsalogin.js';
 import Func from '../func/func';
 import News from '../news/news';
 import Mine from '../../View/mine/mine';
@@ -58,7 +58,7 @@ export default class Home extends React.Component {
         if(navigator) {
             navigator.push({
                 name: 'Login',
-                component: Login
+                component: RsaLogin
             })
         }
     }

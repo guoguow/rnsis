@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc22149-5805-43cc-90d0-3493a5290867" name="Default" comment="尚未加密V0">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/View/newhouse/newhouse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/View/news/news.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/View/news/newsCss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/View/func/func.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
@@ -26,12 +24,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Component/nav/nav.js" afterPath="$PROJECT_DIR$/App/Component/nav/nav.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/home/home.js" afterPath="$PROJECT_DIR$/App/View/home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/home/homeCss.js" afterPath="$PROJECT_DIR$/App/View/home/homeCss.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/index/index.js" afterPath="$PROJECT_DIR$/App/View/index/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/login/signin.js" afterPath="$PROJECT_DIR$/App/View/login/signin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/login/signup.js" afterPath="$PROJECT_DIR$/App/View/login/signup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/View/mine/mine.js" afterPath="$PROJECT_DIR$/App/View/mine/mine.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build.gradle" afterPath="$PROJECT_DIR$/android/app/build.gradle" />
@@ -257,15 +250,18 @@
     <favorites_list name="rnsisV1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="rsalogin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/rsalogin.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="attachSSN.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Service/attachSSN.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+            <state relative-caret-position="271">
+              <caret line="160" column="15" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="15" />
               <folding>
-                <element signature="e#0#43#0" expanded="false" />
-                <element signature="e#4183#4566#0" expanded="false" />
+                <element signature="e#59#207#0" expanded="true" />
+                <element signature="e#497#609#0" expanded="false" />
+                <element signature="e#636#734#0" expanded="false" />
+                <element signature="e#760#857#0" expanded="false" />
+                <element signature="e#886#986#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -274,44 +270,37 @@
       <file leaf-file-name="signin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/View/login/signin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="270" column="0" selection-start-line="270" selection-start-column="0" selection-end-line="277" selection-end-column="6" />
               <folding>
-                <element signature="e#2302#2428#0" expanded="false" />
-                <element signature="e#3271#3467#0" expanded="false" />
+                <element signature="e#3981#6150#0" expanded="false" />
                 <element signature="e#6393#6768#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base64.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/base64.js">
+      <file leaf-file-name="rsalogin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/View/login/rsalogin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.android.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.android.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="1206">
+              <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
               <folding>
-                <element signature="e#15#65#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="false" />
+                <element signature="e#1656#1841#0" expanded="false" />
+                <element signature="e#1867#2079#0" expanded="false" />
+                <element signature="e#2456#2821#0" expanded="false" />
+                <element signature="e#7434#9120#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rsa-client.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/rsa-client.js">
+      <file leaf-file-name="mineCss.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Service/mineCss.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="765" column="9" selection-start-line="765" selection-start-column="9" selection-end-line="765" selection-end-column="9" />
+            <state relative-caret-position="-261">
+              <caret line="50" column="6" selection-start-line="31" selection-start-column="4" selection-end-line="50" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -355,21 +344,22 @@
         <option value="$PROJECT_DIR$/App/View/home/homeCss.js" />
         <option value="$PROJECT_DIR$/App/View/mine/mineCss.js" />
         <option value="$PROJECT_DIR$/App/View/func/func.js" />
-        <option value="$PROJECT_DIR$/App/View/home/home.js" />
         <option value="$PROJECT_DIR$/App/View/news/news.js" />
         <option value="$PROJECT_DIR$/App/Service/mineSIS.js" />
         <option value="$PROJECT_DIR$/App/Service/sftConfig.js" />
-        <option value="$PROJECT_DIR$/App/View/mine/mine.js" />
         <option value="$PROJECT_DIR$/App/Service/persInfo.js" />
-        <option value="$PROJECT_DIR$/App/View/login/signin.js" />
-        <option value="$PROJECT_DIR$/App/Service/attachSSN.js" />
         <option value="$PROJECT_DIR$/App/Component/navg/page1.js" />
         <option value="$PROJECT_DIR$/App/Component/baobab/cc.js" />
         <option value="$PROJECT_DIR$/App/Component/baobab/aa.js" />
-        <option value="$PROJECT_DIR$/index.android.js" />
         <option value="$PROJECT_DIR$/App/rsa-client.js" />
         <option value="$PROJECT_DIR$/App/base64.js" />
+        <option value="$PROJECT_DIR$/index.android.js" />
+        <option value="$PROJECT_DIR$/App/View/home/home.js" />
+        <option value="$PROJECT_DIR$/App/View/mine/mine.js" />
         <option value="$PROJECT_DIR$/App/rsalogin.js" />
+        <option value="$PROJECT_DIR$/App/View/login/signin.js" />
+        <option value="$PROJECT_DIR$/App/View/login/rsalogin.js" />
+        <option value="$PROJECT_DIR$/App/Service/attachSSN.js" />
       </list>
     </option>
   </component>
@@ -391,7 +381,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -427,6 +417,184 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rnsisV1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -445,22 +613,22 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="E:/nodeServer" />
+    <property name="last_opened_file_path" value="E:/nodeServerV1" />
     <property name="nodejs_interpreter_path" value="D:\nodejs\node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\rnsisV1\App\View" />
-      <recent name="E:\rnsisV1\App\Service" />
-      <recent name="E:\rnsisV1\App" />
-      <recent name="E:\rnsisV1\App\View\oldhouse" />
-      <recent name="E:\rnsisV1\App\View\mine" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\rnsisV1\App" />
       <recent name="E:\rnsisV1\App\View" />
       <recent name="E:\rnsisV1\App\View\home\img" />
       <recent name="E:\rnsisV1\App\Component\navg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\rnsisV1\App\View\login" />
+      <recent name="E:\rnsisV1\App\View" />
+      <recent name="E:\rnsisV1\App\Service" />
+      <recent name="E:\rnsisV1\App" />
+      <recent name="E:\rnsisV1\App\View\oldhouse" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.signin.js">
@@ -573,7 +741,8 @@
       <workItem from="1460593625732" duration="2762000" />
       <workItem from="1460615350711" duration="10677000" />
       <workItem from="1460682875476" duration="1686000" />
-      <workItem from="1460686368006" duration="12423000" />
+      <workItem from="1460686368006" duration="12776000" />
+      <workItem from="1461025546759" duration="21886000" />
     </task>
     <task id="LOCAL-00001" summary="用户登录状态的保存已经完成（cookie），navgitor初步雏形">
       <created>1460107562609</created>
@@ -589,11 +758,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460711980796</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="尚未加密V0">
+      <created>1460712290344</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1460712290344</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157941000" />
+    <option name="totallyTimeSpent" value="180180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,20 +786,20 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23201692" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15286624" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16709183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3112245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -663,25 +839,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Component/nav/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/navindex.android.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -701,12 +863,12 @@
         <state relative-caret-position="57">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#1899#3112#0" expanded="false" />
-            <element signature="e#3129#3994#0" expanded="false" />
-            <element signature="e#4012#11124#0" expanded="false" />
-            <element signature="e#14973#16360#0" expanded="false" />
-            <element signature="e#16382#17016#0" expanded="false" />
-            <element signature="e#17038#18225#0" expanded="false" />
+            <element signature="e#1907#3120#0" expanded="false" />
+            <element signature="e#3137#4002#0" expanded="false" />
+            <element signature="e#4020#11132#0" expanded="false" />
+            <element signature="e#14981#16368#0" expanded="false" />
+            <element signature="e#16390#17024#0" expanded="false" />
+            <element signature="e#17046#18233#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -730,8 +892,7 @@
         <state relative-caret-position="437">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
-            <element signature="e#2302#2428#0" expanded="false" />
-            <element signature="e#3271#3467#0" expanded="false" />
+            <element signature="e#3981#6150#0" expanded="false" />
             <element signature="e#6393#6768#0" expanded="false" />
           </folding>
         </state>
@@ -861,29 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Service/mineCss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/mine/mine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-          <folding>
-            <element signature="e#15#94#0" expanded="false" />
-            <element signature="e#484#1341#0" expanded="false" />
-            <element signature="e#1378#1617#0" expanded="false" />
-            <element signature="e#1892#2153#0" expanded="false" />
-            <element signature="e#2166#2351#0" expanded="false" />
-            <element signature="e#2369#3582#0" expanded="false" />
-            <element signature="e#6102#6567#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Components/TextInput/TextInput.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -899,20 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Service/attachSSN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="99" column="10" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
-          <folding>
-            <element signature="e#59#191#0" expanded="false" />
-            <element signature="e#519#631#0" expanded="false" />
-            <element signature="e#658#756#0" expanded="false" />
-            <element signature="e#782#879#0" expanded="false" />
-            <element signature="e#908#1008#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Service/persInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -924,34 +1048,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/baobab/cc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Component/baobab/cc.js" />
     <entry file="file://$PROJECT_DIR$/App/Component/baobab/aatest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/nav/nav_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Component/nav/nav_1.js" />
     <entry file="file://$PROJECT_DIR$/App/Component/nav/nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-556">
@@ -976,41 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Component/navg/navg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="e#78#139#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#1899#3112#0" expanded="false" />
-            <element signature="e#3129#3994#0" expanded="false" />
-            <element signature="e#4012#11124#0" expanded="false" />
-            <element signature="e#14973#16360#0" expanded="false" />
-            <element signature="e#16382#17016#0" expanded="false" />
-            <element signature="e#17038#18225#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#15#71#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/View/startpage/startpage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1023,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,15 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/base64.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,21 +1122,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/View/login/signin.js">
+    <entry file="file://$PROJECT_DIR$/App/base64.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="19">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Component/navg/navg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#2302#2428#0" expanded="false" />
-            <element signature="e#3271#3467#0" expanded="false" />
-            <element signature="e#6393#6768#0" expanded="false" />
+            <element signature="e#78#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.android.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="e#15#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding>
+            <element signature="e#15#136#0" expanded="true" />
+            <element signature="e#1907#3120#0" expanded="false" />
+            <element signature="e#3137#4002#0" expanded="false" />
+            <element signature="e#4020#11132#0" expanded="false" />
+            <element signature="e#14981#16368#0" expanded="false" />
+            <element signature="e#16390#17024#0" expanded="false" />
+            <element signature="e#17046#18233#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/rsa-client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="4172">
           <caret line="765" column="9" selection-start-line="765" selection-start-column="9" selection-end-line="765" selection-end-column="9" />
           <folding />
         </state>
@@ -1082,20 +1185,84 @@
     <entry file="file://$PROJECT_DIR$/App/rsalogin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <caret line="26" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="318" selection-end-column="24" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
-            <element signature="e#4183#4566#0" expanded="false" />
+            <element signature="e#1619#1804#0" expanded="false" />
+            <element signature="e#1830#2042#0" expanded="false" />
+            <element signature="e#4154#4335#0" expanded="false" />
+            <element signature="e#6541#6916#0" expanded="false" />
+            <element signature="e#6953#8639#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.android.js">
+    <entry file="file://$PROJECT_DIR$/App/View/mine/mine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="266">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
           <folding>
-            <element signature="e#15#65#0" expanded="true" />
+            <element signature="e#15#94#0" expanded="true" />
+            <element signature="e#489#1346#0" expanded="false" />
+            <element signature="e#1900#2161#0" expanded="false" />
+            <element signature="e#2174#2359#0" expanded="false" />
+            <element signature="e#2377#3590#0" expanded="false" />
+            <element signature="e#6110#6575#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/login/rsa-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Service/mineCss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="50" column="6" selection-start-line="31" selection-start-column="4" selection-end-line="50" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/login/signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="270" column="0" selection-start-line="270" selection-start-column="0" selection-end-line="277" selection-end-column="6" />
+          <folding>
+            <element signature="e#3981#6150#0" expanded="false" />
+            <element signature="e#6393#6768#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/login/rsalogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+            <element signature="e#1656#1841#0" expanded="false" />
+            <element signature="e#1867#2079#0" expanded="false" />
+            <element signature="e#2456#2821#0" expanded="false" />
+            <element signature="e#7434#9120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Service/attachSSN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="160" column="15" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="15" />
+          <folding>
+            <element signature="e#59#207#0" expanded="true" />
+            <element signature="e#497#609#0" expanded="false" />
+            <element signature="e#636#734#0" expanded="false" />
+            <element signature="e#760#857#0" expanded="false" />
+            <element signature="e#886#986#0" expanded="false" />
           </folding>
         </state>
       </provider>
