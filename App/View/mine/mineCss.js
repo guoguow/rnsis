@@ -13,12 +13,11 @@ let PR = PixelRatio.get();
 export const styles = {
     wrap: {
         flex: 1,
-        flexDirection: 'column'
     },
     view: {
         flex: 1,
         overflow: 'hidden',
-        flexDirection: 'row'
+        flexDirection: 'row',
     },
     top: {
         flex: 1,
@@ -30,10 +29,10 @@ export const styles = {
         backgroundColor: '#fff'
     },
     style_view_login:{
-        marginTop:80,
+        marginTop:50,
         marginLeft:100,
         marginRight:100,
-        backgroundColor:'#63B8FF',
+        backgroundColor:'#ccc',
         height:35,
         justifyContent: 'center',
         alignItems: 'center',
@@ -50,40 +49,28 @@ export const styles = {
         backgroundColor: "##5599FF",
     },
     swithbox: {
-        height: (Platform.OS=='ios'?180:160),
+        height: (Platform.OS=='ios'?180:150),
         backgroundColor: '#ccc',
         position: 'relative'
     },
     bolock: {   
-        height: 40,
+        height: 50,
         justifyContent: 'center',
-        paddingLeft: 12,
+        paddingLeft: 10,
+        paddingRight: 10,
         borderBottomColor: '#ccc',
         borderBottomWidth: 2/PR,
         backgroundColor: "white",
-    },
-    navbar: {
-        height: 42,
-        backgroundColor: '#fff',
-        flexDirection: 'row',
-        borderTopColor: '#b2b2b2',
-        borderTopWidth: 1/PR,
-        bottom:0    },
-    navli: {
-        flex: 1,
+        borderRightColor: '#ccc',
+        borderRightWidth: 1/PR
+    }, 
+    funchead:{
+        marginTop:0,
+        marginLeft:0,
+        marginRight:0,
+        backgroundColor:'#63B8FF',
+        height:45,
+        justifyContent: 'center',
         alignItems: 'center',
-        justifyContent: 'flex-end'
     },
-    navlitxt: {
-        color: '#666',
-        fontSize: 12,
-        marginTop: 3
-    },
-    navlitxtcurrent: {
-        color: '#ff6600'
-    },
-    navliimage: {
-        width: 20,
-        height: 20
-    }
 };

@@ -4,7 +4,7 @@
 'use strict';
 const React = require('react-native');
 
-var url="10.1.82.53:3001";
+var url="10.1.91.242:3001";
 
 var RSAClient= require('./rsa-client');//客户端rsa加密
 var _publicKey = new RSAClient();
@@ -87,7 +87,7 @@ export default class  RsaLogin  extends React.Component{
         console.log(_pwd);
         var username = this.state.userName;
         var password = _pwd;
-        var baseurl="http://10.1.82.53:3001/login?userName=";
+        var baseurl="http://10.1.91.242:3001/login?userName=";
         var queryURL=baseurl+encodeURIComponent(username)+"&passWord="+encodeURIComponent(password);
         function status(response){
             console.log(response);
@@ -130,6 +130,70 @@ export default class  RsaLogin  extends React.Component{
                 usersCursor.set('ssn', responseData.ssn);
                 console.log("aa"+usersCursor.get("username"));
                 console.log("aa"+usersCursor.get("ssn"));
+                var pssn = usersCursor.get("ssn");
+                var purl="http://10.1.91.242:3000/profile?ssn="
+                var perInfoURL=purl+encodeURIComponent(pssn)+"&username="+encodeURIComponent(username);
+                fetch(perInfoURL)
+                    .then((response) =>response.json())
+                    .then(function(persdata) {
+                        //http://10.1.91.242:3000/profile?ssn=20613111810005534383&username=ll
+                        //FOR persInfo
+                        usersCursor.set('name', persdata.name);
+                        usersCursor.set('idcard', persdata.idcard);
+                        usersCursor.set('birthday', persdata.birthday);
+                        usersCursor.set('sex', persdata.sex);
+                        usersCursor.set('marrige', persdata.marrige);
+                        usersCursor.set('nationality', persdata.nationality);
+                        usersCursor.set('ps', persdata.ps);
+                        usersCursor.set('mobliephone', persdata.mobilephone);
+                        usersCursor.set('address', persdata.address);
+//{"ssn":"20613111810005534383","name":"施小平测生育02","idcard":"320682197806130132","birthday":"19780613",
+// "sex":"2","marrige":null,"nationality":null,"PS":null,"mobilephone":"2061311181345345","address":null}
+
+                    })
+                    .catch((error) => {
+                        console.log("pers pp"+error);
+                    });
+                var mssn = usersCursor.get("ssn");
+                var murl="http://10.1.91.242:3002/getsistype?username=";
+                //http://10.1.91.242:3002/getsistype?username=lww&ssn=20613111810005534383
+                var  minSISURL=murl+encodeURIComponent(username)+"&ssn="+encodeURIComponent(mssn);
+                fetch(minSISURL)
+                    .then((response) =>response.json())
+                    .then(function(minsdata) {
+
+                        var o1 ={sign:"0",value1:''};
+                        var o2=o1,o3=o1,o4=o1,o5=o1;
+                        for (var i = 0;i < minsdata.length; i++)
+                        {
+                            for(var key in minsdata[i]){
+                                //alert("key："+key+",value："+data[i][key]);
+                                switch (minsdata[i][key]){
+                                    case "101":
+                                    case "102":  o1 ={sign:"1",value1:'职工养老',date:minsdata[i].aac030.substring(0,4)};break;
+                                    case "110": o1 ={sign:"11",value1:'居民养老',date:minsdata[i].aac030.substring(0,4)};break;
+                                    case "201": o2 ={sign:"5",value2:'职工失业',date:minsdata[i].aac030.substring(0,4)};break;
+                                    case "303":
+                                    case "302":
+                                    case "301":  o3 = {sign:"2",value3:'职工医疗',date:minsdata[i].aac030.substring(0,4)};break;
+                                    case "305":
+                                    case "306":   o3={sign:"22",value3:'居民医疗',date:minsdata[i].aac030.substring(0,4)};break;
+                                    case "401":  o4 = {sign:"4",value4:'职工工伤',date:minsdata[i].aac030.substring(0,4)};break;
+                                    case "501":   o5 = {sign:"3",value5:'职工生育',date:minsdata[i].aac030.substring(0,4)};break;
+                                }
+                            }
+
+                        }
+                        var out={s1:o1,s2:o2,s3:o3,s4:o4,s5:o5};
+                        usersCursor.set('sistype', out);
+                        
+                        
+                    })
+                    .catch((error) => {
+                        console.log("minesis "+error);
+                    });
+
+
 
             })
             .catch((cerror) => {

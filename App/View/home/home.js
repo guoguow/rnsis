@@ -1,11 +1,13 @@
 'use strict';
 
-import React, { ScrollView, View, Image, Text,TouchableHighlight, Animated,Global,TouchableOpacity } from 'react-native';
+import React, { ScrollView, View,Navigator, Image, Text,TouchableHighlight, Animated,Global,TouchableOpacity } from 'react-native';
 import { styles } from './homeCss';
 import RsaLogin from '../login/rsalogin.js';
 import Func from '../func/func';
 import News from '../news/news';
 import Mine from '../../View/mine/mine';
+
+
 
 require('../../Component/baobab/bb.js');
 var usersCursor = tree.select('users');
@@ -16,36 +18,6 @@ export default class Home extends React.Component {
     constructor(props) {
         super(props);
         /*初始状态*/
-        this.state = {
-            defaultCity: '上海',
-            data: [
-                {
-                    txt: '首页',
-                    uri: require('../img/tab1_1.png'),
-                    suri: require('../img/tab1_2.png')
-                },
-                {
-                    txt: '服务',
-                    uri: require('../img/tab2_1.png'),
-                    suri: require('../img/tab2_2.png')
-                },
-                {
-                    txt: '资讯',
-                    uri: require('../img/tab3_2.png'),
-                    suri: require('../img/tab3_1.png')
-                },
-                {
-                    txt: '我的',
-                    uri: require('../img/tab4_2.png'),
-                    suri: require('../img/tab4_1.png')
-                }
-            ],
-            currentComponent: 0
-
-        };
-        this.setTransY = {};
-        this.bgopacity = {};
-        this.imgopacity = {};
     }
     /*renderlogin*/
     _gologin() {
@@ -61,54 +33,6 @@ export default class Home extends React.Component {
                 component: RsaLogin
             })
         }
-    }
-    select(key) {
-        switch (key) {
-
-            case 0:
-            {
-                const { navigator } = this.props;
-                if(navigator) {
-                    navigator.push({
-                        name: 'Home',
-                        component: Home
-                    })
-                }
-            } break;
-            case 1:
-            {
-                const { navigator } = this.props;
-                if(navigator) {
-                    navigator.push({
-                        name: 'Func',
-                        component: Func
-                    })
-                }
-            }break;
-            case 2:
-            {
-                const { navigator } = this.props;
-                if(navigator) {
-                    navigator.push({
-                        name: 'News',
-                        component: News
-                    })
-                }
-            }break;
-            case 3:
-            {
-                const { navigator } = this.props;
-                if(navigator) {
-                    navigator.push({
-                        name: 'Mine',
-                        component: Mine
-                    })
-                }
-            }break;
-
-        }
-
-
     }
 
     onScroll(e){
@@ -241,16 +165,6 @@ export default class Home extends React.Component {
                             </View>
                         </View>
                     </View>
-                </View>
-                <View style={styles.navbar}>
-                    {
-                        this.state.data.map((value,key)=>
-                            <View style={styles.navli} key={key} onTouchEnd={this.select.bind(this,key)}>
-                                <Image style={styles.navliimage} source={key==(this.state.currentComponent)?value.suri:value.uri}/>
-                                <Text style={[styles.navlitxt,(key==this.state.currentComponent)&&styles.navlitxtcurrent]}>{value.txt}</Text>
-                            </View>
-                        )
-                    }
                 </View>
             </View>
         );
@@ -387,17 +301,6 @@ export default class Home extends React.Component {
                             </View>
                         </View>
                     </View>
-                </View>
-
-                <View style={styles.navbar}>
-                    {
-                        this.state.data.map((value,key)=>
-                            <View style={styles.navli} key={key} onTouchEnd={this.select.bind(this,key)}>
-                                <Image style={styles.navliimage} source={key==(this.state.currentComponent)?value.suri:value.uri}/>
-                                <Text style={[styles.navlitxt,(key==this.state.currentComponent)&&styles.navlitxtcurrent]}>{value.txt}</Text>
-                            </View>
-                        )
-                    }
                 </View>
 
             </View>

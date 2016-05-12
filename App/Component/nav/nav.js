@@ -1,17 +1,18 @@
 'use strict';
 
-import React, { View, Image, Text,Navigator } from 'react-native';
+import React, { View,Navigator, Image, Text } from 'react-native';
 import { styles } from './navCss';
 
 import Home from '../../View/home/home';
-import NewHouse from '../../View/func/func';
-import OldHouse from '../../View/news/news';
+import Func from '../../View/func/func';
+import News from '../../View/news/news';
 import Mine from '../../View/mine/mine';
 
 export default class Nav extends React.Component {
-      static defaultProps = {
+    static defaultProps = {
         current: 0
     };
+    
     /*构造*/
     constructor(props) {
         super(props);
@@ -42,37 +43,39 @@ export default class Nav extends React.Component {
             currentComponent: props.current,
         };
     }
+
     /*点击切换页面*/
     selectComponent(index){
-        console.log("ppppppppppppppp"+this.props);
         if(this.state.currentComponent !== index){
             this.setState({
                 currentComponent: index
             });
         }
-        console.log("qqqqqqqqqqqqqq"+this.props.Navigator);
-
     }
-
+    /*对外提供切换页面方法*/
+    selectfn(index){
+        this.setState({
+            currentComponent: index
+        });
+    }
     /*渲染*/
     render(){
-
+        
         return (
             <View style={styles.wrap}>
                 <View style={styles.view}>
                     {
                         [
-                            <Home />,
-                            <NewHouse />,
-                            <OldHouse/>,
-                            <Mine/>
+                            <Home selectComponent={this.selectfn.bind(this)}   navigator  = {this.props.navigator} />,
+                            <Func selectComponent={this.selectfn.bind(this)} navigator  = {this.props.navigator}/>,
+                            <News selectComponent={this.selectfn.bind(this)} navigator  = {this.props.navigator} />,
+                            <Mine selectComponent={this.selectfn.bind(this)} navigator  = {this.props.navigator}/>
                         ].map((value,key)=>
                             <View style={[styles.viewli,(key==this.state.currentComponent)&&{left:-this.state.currentComponent*styles.viewli.width}]} key={key}>
                                 {value}
                             </View>
                         )
                     }
-                    
                 </View>
                 <View style={styles.navbar}>
                     {
@@ -85,9 +88,6 @@ export default class Nav extends React.Component {
                     }
                 </View>
             </View>
-
-            
-            
         );
     }
 };

@@ -11,38 +11,124 @@ let { width, height } = Dimensions.get('window');
 let PR = PixelRatio.get();
 
 export const styles = {
+
+    funchead:{
+        marginTop:0,
+        marginLeft:0,
+        marginRight:0,
+        backgroundColor:'#63B8FF',
+        height:45,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+
+    textInside: {
+        fontFamily: 'Arial',
+        fontSize: 25,
+    },
+
+    functionalText: {
+        color: "white",
+    },
+
     wrap: {
         flex: 1,
-        flexDirection: 'column'
+        backgroundColor:'white',
+
+    },
+    func1wrap: {
+        flex: 1,
+        backgroundColor:'white',
+        height:500,
     },
     view: {
         flex: 1,
         overflow: 'hidden',
         flexDirection: 'row'
     },
-
-    navbar: {
-        height: 42,
-        backgroundColor: '#fff',
+    viewli: {
+        width: width
+    },
+    tabbar: {
+        height: 25,
+        backgroundColor:'#63B8FF',
         flexDirection: 'row',
         borderTopColor: '#b2b2b2',
-        borderTopWidth: 1/PR,
-        bottom:0    },
-    navli: {
+        borderTopWidth: 1/PR
+    },
+    tabli: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'flex-end'
+        justifyContent: 'flex-end',
+        borderLeftColor: '#b2b2b2',
+        borderLeftWidth: 1/PR
     },
-    navlitxt: {
-        color: '#666',
-        fontSize: 12,
+    tablitxt: {
+        color: '#ccc',
+        fontSize: 16,
+        marginTop: 3,
+    },
+    tablitxtcurrent: {
+        color: 'white',
+        fontSize: 18,
+
+    },
+    quotation: {
+        height: 40,
+        flex: 1,
+        flexDirection: 'column'
+    },
+    quotations: {
+        height: 80,
+        flex: 1,
+        flexDirection: 'column'
+    },
+
+    quotationti: {
+        height: 30,
+        justifyContent: 'center',
+        paddingLeft: 12,
+        borderBottomColor: '#ccc',
+        borderBottomWidth: 1/PR
+    },
+    quotationtxt: {
+        fontSize: 12
+    },
+    quotationcontent: {
+        flex: 1,
+        flexDirection: 'row'
+    },
+    quotationcontents: {
+        flex: 1,
+        flexDirection: 'row',
+        borderTopColor: '#ccc',
+        borderTopWidth: 1/PR
+    },
+    quotationdata: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    quotationdataBorder: {
+        borderRightColor: '#ccc',
+        borderRightWidth: 1/PR
+    },
+    quotationth: {
+        fontSize: 10,
+        color: '#999'
+    },
+    quotationtt: {
+        fontSize: 14,
+        color: '#f60',
         marginTop: 3
     },
-    navlitxtcurrent: {
-        color: '#ff6600'
+    borderTopBottom: {
+        borderTopColor: '#ccc',
+        borderBottomColor: '#ccc',
+        borderTopWidth: 1/PR,
+        borderBottomWidth: 1/PR,
+        marginTop: 8,
+        backgroundColor: '#fff'
     },
-    navliimage: {
-        width: 20,
-        height: 20
-    }
+
 };
