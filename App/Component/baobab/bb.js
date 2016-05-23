@@ -21,21 +21,29 @@ var Baobab = require('baobab');
             mobilephone:null,
             address:null,
             sistype:null,
+        },
+         date:{
+             startdate:'',
+             enddate:'null'
+         },
+         sistype:{
+             type:'',
+             typetitle:''
+         }
 
-        }
     })
 
 
-tree.on('update', function(e) {
-    var eventData = e.data;
-
-    console.log('Current data:', eventData.currentData);
-    console.log('Previous data:', eventData.previousData);
-    
-    usersCursor=tree.select("users")
-    console.log("bb"+usersCursor.get("username"));
-    console.log("bb"+usersCursor.get("ssn"));
-    
-    console.log('Transaction details:', eventData.transaction);
-    console.log('Affected paths', eventData.paths);
-});
+// tree.on('update', function(e) {
+//     var eventData = e.data;
+//
+//     console.log('Current data:', eventData.currentData);
+//     console.log('Previous data:', eventData.previousData);
+//    
+//     usersCursor=tree.select("users")
+//     console.log("bb"+usersCursor.get("username"));
+//     console.log("bb"+usersCursor.get("ssn"));
+//    
+//     console.log('Transaction details:', eventData.transaction);
+//     console.log('Affected paths', eventData.paths);
+// });

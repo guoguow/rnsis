@@ -49,3 +49,9 @@ console.log(usersCursor.get("sistype").s1.value1);
 
 
 console.log("kkkkkkpppppppppppp"+usersCursor.get("sistype"));
+
+var dateCursor = tree.select('date');
+
+dateCursor.set('startdate', "121212");
+
+console.log("hhhhhhhhkkkkk"+dateCursor.get("startdate"));

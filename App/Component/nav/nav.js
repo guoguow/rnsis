@@ -1,6 +1,7 @@
 'use strict';
 
-import React, { View,Navigator, Image, Text } from 'react-native';
+import React from "react";
+import{ View,Navigator, Image, Text } from 'react-native';
 import { styles } from './navCss';
 
 import Home from '../../View/home/home';

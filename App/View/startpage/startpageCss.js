@@ -1,6 +1,7 @@
 'use strict';
 
-import React, { Platform } from 'react-native';
+import React from "react"
+import { Platform } from 'react-native';
 import Dimensions from 'Dimensions';
 
 let { width, height } = Dimensions.get('window');

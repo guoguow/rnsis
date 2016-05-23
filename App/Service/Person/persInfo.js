@@ -1,7 +1,8 @@
 'use strict';
-const React = require('react-native');
-var {
-    TextInput,Component,
+
+import React,{Component} from "react";
+import  {
+    TextInput,
     StyleSheet,
     Text,
     View,
@@ -9,7 +10,7 @@ var {
     Image,
     TouchableHighlight,
     TouchableOpacity
-} = React;
+} from "react-native"
 
 
 import { styles } from './mineCss';

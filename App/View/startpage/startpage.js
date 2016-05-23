@@ -1,6 +1,8 @@
 'use strict';
 
-import React, { View, Text, Image, Platform, StatusBarIOS } from 'react-native';
+import React from "react";
+import 
+{ View, Text, Image, Platform, StatusBarIOS } from 'react-native';
 import Animatable from 'react-native-animatable';
 import { styles } from './startpageCss';
 import Index from '../index/index';

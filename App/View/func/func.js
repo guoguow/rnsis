@@ -1,6 +1,7 @@
 'use strict';
 
-import React, {ScrollView, View,Component, Image, Text,TouchableOpacity } from 'react-native';
+import React,{Component} from "react";
+import {ScrollView, View,Image, Text,TouchableOpacity } from 'react-native';
 import Home from '../home/home.js';
 import News from '../news/news';
 import Mine from '../../View/mine/mine';
@@ -10,9 +11,12 @@ import Attach from '../../Service/Person/attachSSN';
 import PersInfo from '../../Service/Person/persInfo';
 import Pers from '../../View/mine/ToPers';
 import MSIS from '../../View/mine/ToMsis';
+import Find from '../../Search/spp.js';
 
 require('../../Component/baobab/bb.js');
 var usersCursor = tree.select('users');
+var typeCursor = tree.select('sistype');
+
 export default class Func1 extends React.Component {
     /*构造*/
     constructor(props) {
@@ -29,6 +33,32 @@ export default class Func1 extends React.Component {
             })
         }
     }
+    goFind() {
+        const { navigator } = this.props;
+        if(navigator) {
+            navigator.push({
+                name: 'Find',
+                component: Find
+            })
+        }
+
+    }
+    _endowpay() {
+        typeCursor.set('type', 'endowpay');
+        typeCursor.set('typetitle', '养老缴费');
+        return  this.goFind();
+    }
+    _endowpaid() {
+        typeCursor.set('type', 'endowpay');
+        typeCursor.set('typetitle', '养老缴费');
+        return  this.goFind();
+    }   
+    _jmendowpay() {
+        typeCursor.set('type', 'endowpay');
+        typeCursor.set('typetitle', '养老缴费');
+        return  this.goFind();
+    }
+    
     _persInfo() {
         if(usersCursor.get("ssn")==""){
             console.log(usersCursor.get("ssn"));
@@ -87,7 +117,7 @@ export default class Func1 extends React.Component {
                     <View style={styles.quotationcontent}>
                         <View style={[styles.quotationdata,styles.quotationdataBorder]}>
                             <TouchableOpacity
-                                onPress={this._gologin.bind(this)}
+                                onPress={this._endowpay.bind(this)}
                             >
                                 <Text style={styles.quotationth}>{'缴费查询'}</Text>
                             </TouchableOpacity>

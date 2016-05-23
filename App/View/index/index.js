@@ -1,13 +1,13 @@
 'use strict';
 
-import React, { View, Navigator,Image, Text } from 'react-native';
+import React from "react";
+import{ View, Navigator,Image, Text } from 'react-native';
 import Nav from '../../Component/nav/nav';
 import Home from '../home/home';
 import NewHouse from '../func/func';
 import OldHouse from '../news/news';
 import Mine from '../mine/mine';
 import Storage from 'react-native-storage';
-import Enter from '../../Component/navg/navg.js';
 
 export default class Index extends React.Component{
     // 构造

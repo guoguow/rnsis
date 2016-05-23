@@ -1,6 +1,7 @@
 'use strict';
 
-import React, { View, Image, Text } from 'react-native';
+import React from "react";
+import { View, Image, Text } from 'react-native';
 import Login from '../login/signin';
 import Home from '../home/home.js';
 import Mine from '../../View/mine/mine';

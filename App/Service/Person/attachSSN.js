@@ -3,8 +3,8 @@
  */
 'use strict';
 
-const React = require('react-native');
-var {
+import React,{Component} from  "react";
+import {
     TextInput,
     Text,
     View,
@@ -12,7 +12,7 @@ var {
     StyleSheet,
     TouchableHighlight,
     TouchableOpacity
-} = React;
+} from "react-native";
 var usersCursor = tree.select('users');
 
 export default class Attach extends React.Component{
@@ -230,40 +230,3 @@ export default class Attach extends React.Component{
         );
     };
 };
-var styles = StyleSheet.create({
-    singleLine: {
-        height: 40,
-        borderWidth: 1,
-        borderRadius: 5,
-        borderColor: 'lightblue',
-        margin: 15,
-    },
-    style_view_login:{
-        marginTop:10,
-        marginLeft:100,
-        marginRight:100,
-        backgroundColor:'#63B8FF',
-        height:35,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    textInside: {
-        fontFamily: 'Arial',
-        fontSize: 25,
-    },
-
-    functionalText: {
-        color: "white",
-    },
-    functionalButton: {
-        backgroundColor: "##5599FF",
-    },
-    title: {
-        left:100,
-        marginTop: 30,
-        fontFamily: 'Chalkduster',
-        fontSize: 39,
-        color: 'gray',
-        marginBottom: 40,
-    },
-});

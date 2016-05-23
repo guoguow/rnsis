@@ -46,7 +46,7 @@ export const styles = {
         color: "white",
     },
     functionalButton: {
-        backgroundColor: "##5599FF",
+        backgroundColor: "#5599FF",
     },
     swithbox: {
         height: (Platform.OS=='ios'?180:150),

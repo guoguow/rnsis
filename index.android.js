@@ -1,10 +1,15 @@
 'use strict';
 
-import React, { AppRegistry } from 'react-native';
+import React from  "react";
+import { AppRegistry } from 'react-native';
 import Startpage from './App/View/startpage/startpage';
-import Enter from './App/Component/navg/navg.js';
 import Index from './App/View/index/index';
-//import Index from './App/rsalogin';
+import Date from './App/Service/commonComp/datepicker';
+
+//import Find from './App/Search/SearchPage';
+//import Find from './App/Search/SP';
+import Find from './App/Search/spp';
+
 
 class App extends React.Component {
     render(){

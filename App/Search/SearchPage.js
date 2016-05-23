@@ -4,29 +4,30 @@
  */
 'use strict';
 
-var React = require('react-native');
-var {
-    AppRegistry,
+import React from "react";
+import {
     StyleSheet,
     Text,
     Image,
     View,
     TextInput,
     ListView,
-} = React;
+} from "react-native";
+
 var GIT_URL = 'https://api.github.com/search/repositories?q=';
 
-var App = React.createClass({
+export default class  Find  extends React.Component{
     /*--  lifecycle --*/
-    getInitialState: function() {
-        return {
+    constructor(props) {
+        super(props);
+        this.state = {
             // (row1, row2) => row1 !== row2：如果两次的数据不同的话，告诉数据源该数据发生了改变
             dataSource: new ListView.DataSource({
                 rowHasChanged: (row1, row2) => row1 !== row2,
             }),
         };
-    },
-    render: function() {
+    }
+    render() {
         var listViewContent;
         if (this.state.dataSource.getRowCount() === 0) {
             listViewContent =
@@ -49,21 +50,21 @@ var App = React.createClass({
                     autoCapitalize='none'
                     autoCorrect={false}
                     placeholder='search forr git project...'
-                    onSubmitEditing ={this.onSearchChange}
+                    onSubmitEditing ={this.onSearchChange.bind(this)}
                     style={styles.searchView}>
                 </TextInput>
                 {listViewContent}
             </View>
         );
-    },
+    }
 
     /*-- private method --*/
 
     //点击搜索响应数据请求
-    onSearchChange: function(event) {
+    onSearchChange(event) {
         var serarchText = event.nativeEvent.text.toLowerCase();
         var queryURL = GIT_URL + encodeURIComponent(serarchText);
-
+        console.log(queryURL);
         fetch(queryURL)
             .then((response) => response.json())
             .then((responseData) => {
@@ -74,10 +75,10 @@ var App = React.createClass({
                 }
             })
             .done();
-    },
+    }
 
     //渲染列表中的每一行数据
-    renderRow: function(item) {
+    renderRow(item) {
         return (
             <View>
                 <View  style={styles.row}>
@@ -97,9 +98,9 @@ var App = React.createClass({
                 <View style={styles.cellBorder}></View>
             </View>
         );
-    },
+    }
 
-});
+};
 
 /*布局样式*/
 var styles = StyleSheet.create({
@@ -135,5 +136,3 @@ var styles = StyleSheet.create({
         backgroundColor:'#EAEAEA',
     }
 });
-
-AppRegistry.registerComponent('rnsis', () => App);

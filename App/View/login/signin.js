@@ -1,18 +1,20 @@
 'use strict';
 //                    <!--View onTouchStart={this.skip.bind(this)}-->
 
-var React = require('react-native');
 require('../../Component/baobab/bb.js');
 var usersCursor = tree.select('users');
-var {
-     Image, TextInput,Component,
+import React,{Component} from  "react";
+import {
+     Image, TextInput,
     StyleSheet,
     Text,
     View,
     Alert,
     TouchableHighlight,
     TouchableOpacity
-} = React;
+} from "react-native"
+
+import { styles } from './loginCSS';
 
 
 export default class  Login  extends React.Component {
@@ -212,92 +214,5 @@ export default class  Login  extends React.Component {
     };
 
 }
-const styles =StyleSheet.create({
-    wrap: {
-        flex:1,
-        overflow: 'hidden'
-    },
-    style_view_login:{
-        marginTop:15,
-        marginLeft:10,
-        marginRight:10,
-        backgroundColor:'#63B8FF',
-        height:35,
-        borderRadius:5,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    style_view_unlogin:{
-        fontSize:12,
-        color:'#63B8FF',
-        marginLeft:10,
 
-    },
-    style_view_register:{
-        fontSize:12,
-        color:'#63B8FF',
-        marginLeft:260,
-    },
-    style_user_input:{
-        backgroundColor:'#fff',
-        marginTop:10,
-        height:35,
-    },
-    style_pwd_input:{
-        backgroundColor:'#fff',
-        height:35,
-    },
-    style_view_signup:{
-        marginTop:15,
-        marginLeft:10,
-        marginRight:10,
-        backgroundColor:'#63B8FF',
-        height:35,
-        borderRadius:5,
-        justifyContent: 'center',
-    },
-    functionalButton: {
-        backgroundColor: "##5599FF",
-    },
-
-    hi: {
-        backgroundColor: "blue",
-    },
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        backgroundColor: '#F5FCFF',
-    },
-    title: {
-        left:30,
-        marginTop: 30,
-        fontFamily: 'Chalkduster',
-        fontSize: 39,
-        color: 'gray',
-        marginBottom: 40,
-    },
-    board: {
-        padding: 1,
-        backgroundColor: "#F5FCFF",
-        borderRadius: 5,
-    },
-    rows: {
-        flexDirection: "row",
-    },
-    showing: {
-        marginTop: 30,
-        fontSize: 20,
-        fontFamily: "Chalkduster",
-    },
-    textInside: {
-        fontFamily: 'Arial',
-        fontSize: 30,
-    },
-
-    functionalText: {
-        color: "white",
-    },
-    
-    
-});
 

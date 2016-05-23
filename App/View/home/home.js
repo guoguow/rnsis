@@ -1,6 +1,7 @@
 'use strict';
 
-import React, { ScrollView, View,Navigator, Image, Text,TouchableHighlight, Animated,Global,TouchableOpacity } from 'react-native';
+import React from "react";
+import { ScrollView, View,Navigator, Image, Text,TouchableHighlight, Animated,Global,TouchableOpacity } from 'react-native';
 import { styles } from './homeCss';
 import RsaLogin from '../login/rsalogin.js';
 import Func from '../func/func';
@@ -310,7 +311,7 @@ export default class Home extends React.Component {
     render() {
         if(usersCursor.get("username")==null){
             return (
-                <View style={styles.wrap}>
+                <View style={styles.wrp}>
                     {this.rendervisit()}
                 </View>
                 
